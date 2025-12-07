@@ -1,1 +1,45 @@
-https://drive.google.com/file/d/18twRqTznoKazVy9d8BVJ20nMdHlAYfB7/view?usp=drive_link
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Advent Card 02</title>
+  <style>
+    .card {
+      width: 300px;
+      height: 400px;
+      perspective: 1000px;
+    }
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+    .card-back {
+      transform: rotateY(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card-inner">
+      <div class="card-front">
+        <img src="card-02-front.png" alt="Front" width="300" height="400">
+      </div>
+      <div class="card-back">
+        <img src="card-02-back.png" alt="Back" width="300" height="400">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
