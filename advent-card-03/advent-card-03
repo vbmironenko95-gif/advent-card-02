@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Advent Card 03</title>
+  <style>
+    body {
+      background: #f0f8ff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      width: 400px;
+      padding: 30px;
+      border: 3px solid #4caf50;
+      border-radius: 15px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .card h1 {
+      color: #4caf50;
+      margin-bottom: 15px;
+    }
+    .card p {
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Зі святами!</h1>
+    <p>Бажаю радості, тепла та нових звершень у цьому сезоні 🎄✨</p>
+  </div>
+</body>
+</html>
